@@ -1,0 +1,45 @@
+body {
+    background-image: url("space_bg.jpeg");
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.astro {
+    background-color: gray;
+    border-radius: 10px;
+    flex-shrink: 0;
+    padding: 20px;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.astro div{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.astro_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.astro_loading img {
+    max-width: 50px;
+}
+
+/*.astronauts{*/
+/*    flex: 1 0 200px;*/
+/*    overflow-y: auto;*/
+/*}*/
+
+
